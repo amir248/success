@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+main{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    max-width:1440px;
+}
+header{
+    /* background-color: #096359; */
+    min-height: 100vh;
+    background: no-repeat linear-gradient(rgb(10, 97, 87), rgba(255, 255, 255, 0.048)), url("/site/img/1111.jpg");
+    background-position: center center;
+    background-size: cover;
+    display:grid;
+    text-align: center;
+    justify-content:center;
+    align-content:space-between;
+    justify-items:center;
+}
+header > h1{
+    color:white;
+    text-align: center;
+    text-shadow:black 1px 1px;
+}
+header > h1 > span:nth-child(1){
+    font-size:20px;
+}
+body > main > header > h1 > span:nth-child(3){
+    font-size:40px;
+}
+body > main > header > h1 > span:nth-child(5){
+    font-size:20px;
+}
+
+.textHeader{
+    width:100%;
+    max-width:1700px;
+    min-height:200px;
+    border-radius: 17px;
+    background-color: rgba(255, 255, 255, 0.815);
+    color:aqua;
+    text-shadow:black 1px 1px;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+body > main > header > div.textHeader > p{
+    width:100%;
+    max-width:700px;
+    align-content: space-around;
+}
+body > main > header > div > div > img{
+    width:70px;
+}
+body > main > header > button{
+    background-color: coral;
+    color:white;
+    text-shadow: black 1px 1px;
+    width:300px;
+    height:40px;
+    border-radius: 30px;
+    border:none;
+    margin-bottom:7%;
+    font-size:30px;
+}
+
+article > img{
+    width:100%;
+    max-width:900px;
+}
